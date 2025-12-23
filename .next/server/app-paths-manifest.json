@@ -1,8 +1,6 @@
 {
-  "/result/normal/page": "app/result/normal/page.js",
-  "/result/cancer/page": "app/result/cancer/page.js",
-  "/result/ct-scan/normal/page": "app/result/ct-scan/normal/page.js",
-  "/result/ct-scan/cancer/page": "app/result/ct-scan/cancer/page.js",
   "/page": "app/page.js",
-  "/ct-scan-detection/page": "app/ct-scan-detection/page.js"
+  "/result/normal/page": "app/result/normal/page.js",
+  "/detection-form/page": "app/detection-form/page.js",
+  "/result/cancer/page": "app/result/cancer/page.js"
 }
