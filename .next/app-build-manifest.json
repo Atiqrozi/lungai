@@ -1,20 +1,15 @@
 {
   "pages": {
-    "/page": [
+    "/detection-form/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/detection-form/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/detection-form/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/detection-form/page.js"
     ],
     "/result/normal/page": [
       "static/chunks/webpack.js",
@@ -31,10 +26,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/ct-scan-detection/page.js"
     ],
+    "/result/ct-scan/cancer/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/result/ct-scan/cancer/page.js"
+    ],
     "/result/ct-scan/normal/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/result/ct-scan/normal/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ]
   }
 }
