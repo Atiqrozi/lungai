@@ -70,7 +70,7 @@ export default function Home() {
               <div className="bg-white bg-opacity-95 p-10 rounded-3xl shadow-2xl backdrop-blur-sm">
                 <h1 className="text-5xl md:text-6xl font-bold text-blue-800 mb-6 leading-tight">LUNG AI</h1>
                 <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                  Lung AI adalah website karya 6 mahasiswa UPN Jatim untuk deteksi dini kanker paru-paru menggunakan AI berbasis data Kaggle. Hasil deteksi hanya bersifat pendukung, keputusan medis tetap harus dikonsultasikan ke dokter.
+                  Lung AI adalah website untuk deteksi dini kanker paru-paru menggunakan AI berbasis data Kaggle. Hasil deteksi hanya bersifat pendukung, keputusan medis tetap harus dikonsultasikan ke dokter.
                 </p>
                 <button onClick={handleStartDetection} className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-10 rounded-full transition duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 text-lg">
                   Mulai Deteksi
@@ -85,7 +85,7 @@ export default function Home() {
       <footer className="relative z-10 bg-black bg-opacity-50 text-white py-6">
         <div className="container mx-auto px-6">
           <div className="text-center">
-            <p>&copy; 2025 Lung AI. Dibuat oleh 6 Mahasiswa UPN Veteran Jawa Timur</p>
+            <p>&copy; 2025 Lung AI. All rights reserved.</p>
           </div>
         </div>
       </footer>
