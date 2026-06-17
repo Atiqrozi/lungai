@@ -1,6 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/result/normal/page": "app/result/normal/page.js",
-  "/detection-form/page": "app/detection-form/page.js",
-  "/result/cancer/page": "app/result/cancer/page.js"
-}

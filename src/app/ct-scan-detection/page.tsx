@@ -54,7 +54,8 @@ export default function CTScanDetection() {
       const formData = new FormData();
       formData.append("file", selectedFile);
 
-      const response = await axios.post("http://localhost:5000/predict", formData, {
+      const apiImageUrl = process.env.NEXT_PUBLIC_IMAGE_API_URL || "http://localhost:5000";
+      const response = await axios.post(`${apiImageUrl}/predict`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

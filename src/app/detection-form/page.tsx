@@ -96,7 +96,8 @@ export default function DetectionForm() {
     setIsLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5001/predict", formData);
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001";
+      const response = await axios.post(`${apiUrl}/predict`, formData);
 
       // Redirect to result page with prediction data
       if (response.data.prediction === "Kanker Paru-Paru") {
